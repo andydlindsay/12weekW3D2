@@ -1,0 +1,15 @@
+{
+  "name": "w03d02",
+  "version": "1.0.0",
+  "description": "### To Do - [ ] Implement CRUD/BREAD over HTTP with Express - [ ] Use forms to submit HTTP requests - [ ] Practice debugging Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
