@@ -11,7 +11,12 @@
   <% if (bikes) { %>
     <ul>
       <% for (const key in bikes) { %>
-        <li><%= key %>: <%= bikes[key] %></li>
+        <li>
+          <span><%= key %>: <%= bikes[key] %></span>
+          <form method="POST" action="/bikes/<%= key %>/delete">
+            <button type="submit">Delete Bike</button>
+          </form>
+        </li>
       <% } %>
     </ul>
   <% } %>
